@@ -2,7 +2,7 @@ The purpose of this document is the hold the supplementary and planning material
 
 # Goals
 
-This Oriole is also the first in a series of four introducing InnerSource.
+This Oriole is the first in a series of four introducing InnerSource.
 These Orioles should be the focal point and shared context of the current public conversation around InnerSource.
 In order to acheive that goal, this Oriole must provide:
 * Compelling and clear definitions around 5 key terms:
@@ -35,7 +35,7 @@ Share a hypothetical (yet believable) example situation that illustrates the dif
 This given situation will be the basis to-which we refer throughout the Oriole, most notably when introducing the 5 key terms and heading off misconceptions about InnerSource.
 
 ## Solution
-Show how the players in the example can collaborate via InnerSource to overcome the problematic situation.
+Show how the players in the example situation can collaborate via InnerSource to overcome their difficulty.
 Explain the benefits of this approach.
 While giving this explanation, naturally include clear definitions of the 5 key terms and also wording specifically designed to dispel misconceptions about InnerSource.
 
@@ -50,9 +50,9 @@ Review the key points of this Oriole and tee up viewers to look for the next Ori
 # References
 
 This proposal is a blend of material and purposes from the following, existing presentations.
-I believe it holds true to the aims and teachings of they all.
+I believe it holds true to the aims and teachings of them all.
 
-* Danese/Russ combined presentation at Nike
+* Existing Oriole proposal
 * Danese/Duane Chennai presentation
 * Danese InnerSource presentation at Nike
-* Existing Oriole proposal
+* Danese/Russ combined presentation at Nike
