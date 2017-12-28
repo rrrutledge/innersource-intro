@@ -1,4 +1,4 @@
-The purpose of this document is the hold the supplementary and planning material related to the content of this Oriole
+The purpose of this document is the hold the supplementary and planning material related to the content of this Oriole.
 
 # Goals
 
@@ -17,10 +17,9 @@ In order to acheive that goal, this Oriole must provide:
 * Interest and anticipation for viewers to watch the remaining Orioles
 
 *Note: Other planning documents for this Oriole had a clear emphasis on staving off misconceptions around InnerSource via calling them out directly.
-While reining in misconceptions is an intended result,
-the proposal here is to do so by leading with a strong presentation of what is essential to InnerSource.
-Anything lacking an essential is not InnerSource.
-We may then call out a few prominent misconceptions InnerSource by comparing them to the clear backdrop that we've defined of InnerSource essentials.*
+While reining in misconceptions is also an intended result of this proposal, here we do so by leading with a strong presentation of what is essential to InnerSource.
+It follows that anything lacking an essential is not InnerSource.
+We may then call out a few prominent misconceptions by comparing them to the clear backdrop of InnerSource essentials that we've defined.*
 
 # Audience
 
@@ -36,10 +35,9 @@ Share a hypothetical (yet believable) example situation that illustrates the dif
 This given situation will be the basis to-which we refer throughout the Oriole, most notably when introducing the 5 key terms and heading off misconceptions about InnerSource.
 
 ## Solution
-Show how the actors in the example can collaborate via InnerSource to overcome the problematic situation.
+Show how the players in the example can collaborate via InnerSource to overcome the problematic situation.
 Explain the benefits of this approach.
-While giving this explanation, naturally include clear definitions of the 5 key terms and also wording specifically designed to dispel misconceptions about InnerSource
-(before we’ve done those misconceptions the dignity of calling them out directly).
+While giving this explanation, naturally include clear definitions of the 5 key terms and also wording specifically designed to dispel misconceptions about InnerSource.
 
 ## Further Explanation
 Delve into some “gotchas” and more nuanced points about the InnerSource process.
@@ -47,9 +45,13 @@ Consider strategic use of short and compelling anecdotes to cement key parts of 
 Trend towards including material in this section that further dispels InnerSource misconceptions and also sets the stage for the upcoming Orioles.
 
 ## Conclusion
-Review they key points of this Oriole and tee up viewers to look for the next Orioles.
+Review the key points of this Oriole and tee up viewers to look for the next Orioles.
 
 # References
+
+This proposal is a blend of material and purposes from the following, existing presentations.
+I believe it holds true to the aims and teachings of they all.
+
 * Danese/Russ combined presentation at Nike
 * Danese/Duane Chennai presentation
 * Danese InnerSource presentation at Nike
