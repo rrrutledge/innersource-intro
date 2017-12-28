@@ -5,6 +5,7 @@ The purpose of this document is the hold the supplementary and planning material
 This Oriole is the first in a series of four introducing InnerSource.
 These Orioles should be the focal point and shared context of the current public conversation around InnerSource.
 In order to acheive that goal, this Oriole must provide:
+
 * Compelling and clear definitions around 5 key terms:
     * Host (team)
     * Guest (team)
