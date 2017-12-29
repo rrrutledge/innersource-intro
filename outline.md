@@ -51,6 +51,7 @@ Trend towards including material in this section that further dispels InnerSourc
 
 ## Conclusion
 Review the key points of this Oriole and tee up viewers to look for the next Orioles.
+Invite interested viewers to participate in the InnerSource Commons.
 
 # References
 
