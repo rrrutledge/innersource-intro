@@ -22,6 +22,10 @@ While reining in misconceptions is also an intended result of this proposal, her
 It follows that anything lacking an essential is not InnerSource.
 We may then call out a few prominent misconceptions by comparing them to the clear backdrop of InnerSource essentials that we've defined.*
 
+*Another Note: One misconception called out in those other planning documents is that InnerSource is not a "new Agile".
+While true, I think that misconception came into play due to PayPal-specific context that will not necessarily be shared by the general audience of this Oriole.
+Thus, this outline does not propose including material to refute the "new Agile" misconception.*
+
 # Audience
 
 The audience for this Oriole is anyone that has heard of InnerSource.
