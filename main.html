@@ -1,10 +1,10 @@
-Where will we stop for feedback and assessment questions?
+<pre>Where will we stop for feedback and assessment questions?</pre>
 
 <h2>Introduction</h2>
 
 <p>
     InnerSource is the methodology of applying open source practices and principles to internal software development.
-    This methodology provides a low-friction method for ensuring that the features and functionality of shared projects are responsive and nimble to the changing needs of their many consumers.
+    This methodology provides a low-friction process for ensuring that the features and functionality of shared projects are responsive and nimble to the changing needs of their many internal consumers.
 </p>
 
 <p>
@@ -13,30 +13,31 @@ Where will we stop for feedback and assessment questions?
     Finally, we'll share other references that can help you deepen your understanding and involvement in the craft of InnerSource.
 </p>
 
-<h2>Problem</h2>
+<h2>Context</h2>
 
 <p>
-    Imagine separate teams producing separate pieces of software with one team's software depending on that of another.
+    Imagine two teams delivering separate pieces of software with one team's software depending on that of the other.
     This situation is common in a large enterprise where a single team producing software may have dozens or hundreds of consumers.
-    When consuming teams need changes, normally the producing team has some sort of requirements prioritization process to decide which they will work on.
-    For feature requests that are not priorized, the consuming team is faced with 3 choices, each of which come with their own drawbacks.
+    When consuming teams need many features, normally the producing team has some sort of requirements and prioritization process to decide which they will work on.
+    For feature requests that are not prioritzed, the consuming team is faced with 3 choices, each of which come with their own drawbacks.
 </p>
 
 <ol>
     <li>
         <p>
             <strong>Wait it out</strong>.
-            Depending on the urgency of the feature request, this option might be just fine or it may come with real amounts of pain for the consuming team as they limp along without the requested functionality. 
+            In this option the consuming team does nothing and limps along without the requested functionality.
+            Depending on the benefit of the feature request, <em>Wait it out</em> might be just fine or it may come with real amounts of pain for the consuming team. 
         </p>
     </li>
     <li>
         <p>
-            <strong>Roll your own</strong>.
+            <strong>Work around</strong>.
             A consuming team that doesn't want to wait may do some extra work somewhere else to compensate for their feature request not making it into the producers' project.
             This extra work may be in the form of a workaround (hack) in their own code or the creation of a new project to replace all or part of the producing team's system (code/project duplication).
         </p>
         <p>
-            <em>Roll your own</em> is suboptimal from a variety of standpoints.
+            <em>Work around</em> is suboptimal from a variety of standpoints.
             First, any work done by the consuming team remains unavailable to anyone else that has a similar situation.
             Second, the consuming team has signed up for the long-term burden of maintenance of code that is not a part of their core puspose.
             Third, the company as-a-whole acquires duplicate projects and code dedicated to the same problem space.
@@ -59,14 +60,14 @@ Where will we stop for feedback and assessment questions?
 
 <pre>
     The "Escalate" option could be a place to include work for Danese's "cheeses" diagram.
-    "Roll your own" possibly use a diagram as well.
+    "Work around" possibly use a diagram as well.
 </pre>
 
 <h2>Solution Overview</h2>
 
 <p>
     This Oriole explains a fourth option available to the consuming team - <strong>InnerSource</strong>.
-    This strategy provides the wins of <em>Roll your own</em> and <em>Escalate</em> without the same drawbacks to the teams and company.
+    This strategy provides the wins of <em>Work around</em> and <em>Escalate</em> without the same drawbacks to the teams and company.
 </p>
 <p>
     The basic idea of <em>InnerSource</em> is that if a consuming team can't get what it needs by submitting a feature request then it may submit a pull request instead.
@@ -138,7 +139,7 @@ Where will we stop for feedback and assessment questions?
 <p>
 There are many benefits to working in this InnerSource model.
 First and foremost, <strong>the guest team gets their feature</strong> when they needed it without the long-term burden of maintaining it.
-The guest team was planning on spending time on the functionality anyway (whether through Roll your own or Escalate), and that time is directed towards putting the feature in a place where others can use it as well.
+The guest team was planning on spending time on the functionality anyway (whether through <em>Work around</em> or <em>Escalate</em>), and that time is directed towards putting the feature in a place where others can use it as well.
 While that result is the shining benefit of InnerSource, one thing that's easy to overlook is the fact that <strong>the host team gets their feature, too</strong>.
 Remember that in the InnerSource process the host team agreed from the outset that the requested functionality was good and desirable in their product.
 The host team is getting help in creating a better product for its consumers!
