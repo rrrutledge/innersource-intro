@@ -18,7 +18,7 @@
 <p>
   Imagine two teams delivering separate pieces of software with one team's software depending on that of the other.
   This situation is common in a large enterprise where a single team producing software may have dozens or hundreds of consumers.
-  When consuming teams need many features, normally the producing team has some sort of requirements and prioritization process to decide which they will work on.
+  When consuming teams need many features, producing teams normally have some sort of requirements and prioritization process to decide which features they will work on.
   For feature requests that are not prioritzed, the consuming team is faced with 3 choices, each of which come with their own drawbacks.
 </p>
 
@@ -44,7 +44,7 @@
           First, any work done by the consuming team remains unavailable to any other consumers with the same feature request.
         </li>
         <li>
-          Second, the consuming team has (ofttimes inadvertently) signed up for the long-term burden of maintaining their newly-written code, which is not a part of their core purpose.
+          Second, the consuming team has (ofttimes inadvertently) signed up for the long-term burden of maintaining the newly-written code, which is not in their core business domain.
         </li>
         <li>
           Third, the company as-a-whole acquires duplicate projects and code in the same problem space.
@@ -63,7 +63,7 @@
     <p>
       This option sounds attractive for the consuming team because they get the requested feature without doing the work to implement or maintain it.
       It is still a drag on the team, though, because it necessarily diverts some of their attention and work to the non-productive task of escalation.
-      Additionally, this option does not scale as there are so many times that a consumer can escalate feature requests before losing credibility.
+      Additionally, this option does not scale as there are so many times that a consumer can escalate feature requests before damaging their credibility.
     </p>
     <p>
       <em>Escalate</em> is similarly disruptive (even more so) for the producing team, who are taken out of their normal workflow and prioritization methods to deal with the escalated feature request.
@@ -84,7 +84,7 @@
 </p>
 <p>
   The basic idea of <em>InnerSource</em> is this: If a consuming team can't get what it needs by submitting a feature request then it may submit a pull request instead.
-  The producing team can partner to review and accept the pull request and the requested functionality it implements.
+  The producing team can partner to review and accept the pull request and the functionality it implements.
 </p>
 <p>
   At its best, this option works for the consuming team because they get the requested feature without taking on the long-term burden of its maintenance.
@@ -137,11 +137,15 @@
     <li>
       Supported by the trusted committer(s), the contributor submits the pull request(s) to implement the requested feature.
     </li>
+    <li>
+      Pull request is merged, and the new feature is completed.
+    </li>
   </ol>
 </p>
 <p>
   Note that these steps do not assume a specific system for the general organization of a team's time or priorities.
-  Rather, InnerSource assumes that teams have existing methods of such organization and simply provides a framework of how to use them to work together where there is a guest team desiring to contribute code to a host.
+  InnerSource assumes that teams already have existing such methods of organization.
+  InnerSource simply provides a framework of how to use them to work together where there is a guest team desiring to contribute code to a host.
 </p>
 
 <pre>
@@ -167,9 +171,9 @@
 <p>
   InnerSourcing provides the host team a scalable strategy for fulfilling the varying amounts of features requested from its many consumers.
   Given the fixed capacity of the full-time members of the host team, it's likely that at times the combined business roadmaps of their consumers will require very (or even unreasonably) large amounts of work to be done in the host team's product(s).
-  Without InnerSource, this situation easily leads to a stressed, overworked team dealing with feature requests escalated to its leaders.
+  Without InnerSource, this situation easily leads to a stressed, overworked team dealing with many feature requests escalated to its leaders.
   However, if the host team operates via InnerSource, the engineering resources required to build those features will appear in-proportion to their importance in the form of guest contributors.
-  InnerSource becomes a force multiplier that allows a host team to temporarily act larger than its actual size is during times of high demand.
+  InnerSource becomes a force multiplier that allows a host team to temporarily act larger than its actual size during times of high demand.
   When the demand has ended, the team throughput scales back to normal levels, all without any micromanagement of team headcount or work items.
 </p>
 
@@ -248,7 +252,7 @@
   In this Oriole we've given an introduction to InnerSource.
   InnerSource applies open source best practices and principles to internal software development. 
   It gives an additional option to consumers when producing teams are not able to deliver a needed feature request.
-  Successful InnerSource involves a <strong>product owner</strong> and <strong>trusted committer</strong> from the <strong>host team</strong> and a <strong>contributor</strong> from the <strong>guest team</strong>.
+  Successful InnerSource involves a <strong>product owner</strong> and <strong>trusted committer</strong> from the <strong>host team</strong> as well as a <strong>contributor</strong> from the <strong>guest team</strong>.
   Done effectively, InnerSource brings many benefits to both participating teams.
   They key principles upon-which effective InnerSource works are <strong>voluntary code contribution</strong> and <strong>prioritized mentorship</strong>.
 </p>
@@ -258,5 +262,5 @@
   We're working hard on at least 3 more Orioles to provide some of this information, so stay tuned for those.
   If you want to join the ongoing conversation around InnerSource and its best practices, then join the <a href="http://www.innersourcecommons.org/">InnerSource Commons</a>.
   The commons sponsors a Slack channel, an InnerSource patterns working group, and multiple in-person summits each year.
-  It is a great way to stay connected with the latest in InnerSource.
+  Particpation in the commons is a great way to stay connected with the latest in InnerSource.
 </p>
