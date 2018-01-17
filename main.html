@@ -3,239 +3,260 @@
 <h2>Introduction</h2>
 
 <p>
-    InnerSource is the methodology of applying open source practices and principles to internal software development.
-    This methodology provides a low-friction process for ensuring that the features and functionality of shared projects are responsive and nimble to the changing needs of their many internal consumers.
+  InnerSource is the methodology of applying open source practices and principles to internal software development.
+  This methodology provides a low-friction process for ensuring that the features and functionality of shared projects are responsive and nimble to the changing needs of their many internal consumers.
 </p>
 
 <p>
-    In this Oriole we'll define some key terms used when discussing InnerSource.
-    We'll walk through the high-level mechanics of how InnerSourcing can work and enumerate the key principles upon-which these mechanics are based.
-    Finally, we'll share other references that can help you deepen your understanding and involvement in the craft of InnerSource.
+  In this Oriole we'll define some key terms used when discussing InnerSource.
+  We'll walk through the high-level mechanics of how InnerSourcing can work and enumerate the key principles upon-which these mechanics are based.
+  Finally, we'll share other references that can help you deepen your understanding and involvement in the craft of InnerSource.
 </p>
 
 <h2>Context</h2>
 
 <p>
-    Imagine two teams delivering separate pieces of software with one team's software depending on that of the other.
-    This situation is common in a large enterprise where a single team producing software may have dozens or hundreds of consumers.
-    When consuming teams need many features, normally the producing team has some sort of requirements and prioritization process to decide which they will work on.
-    For feature requests that are not prioritzed, the consuming team is faced with 3 choices, each of which come with their own drawbacks.
+  Imagine two teams delivering separate pieces of software with one team's software depending on that of the other.
+  This situation is common in a large enterprise where a single team producing software may have dozens or hundreds of consumers.
+  When consuming teams need many features, normally the producing team has some sort of requirements and prioritization process to decide which they will work on.
+  For feature requests that are not prioritzed, the consuming team is faced with 3 choices, each of which come with their own drawbacks.
 </p>
 
 <ol>
-    <li>
-        <p>
-            <strong>Wait it out</strong>.
-            In this option the consuming team does nothing and limps along without the requested functionality.
-            Depending on the benefit of the feature request, <em>Wait it out</em> might be just fine or it may come with real amounts of pain for the consuming team. 
-        </p>
-    </li>
-    <li>
-        <p>
-            <strong>Work around</strong>.
-            A consuming team that doesn't want to wait may do some extra work somewhere else to compensate for their feature request not making it into the producers' project.
-            This extra work may be in the form of a workaround (hack) in their own code or the creation of a new project to replace all or part of the producing team's system (code/project duplication).
-        </p>
-        <p>
-            <em>Work around</em> is suboptimal from a variety of standpoints.
-            First, any work done by the consuming team remains unavailable to anyone else that has a similar situation.
-            Second, the consuming team has signed up for the long-term burden of maintenance of code that is not a part of their core puspose.
-            Third, the company as-a-whole acquires duplicate projects and code dedicated to the same problem space.
-        </p>
-        <p>
-            Despite these drawbacks, one big win for the consuming team is their ability to get the desired functionality via their own efforts only (no immediate dependencies), so this option is commonly-taken.
-        </p>
-    </li>
-    <li>
-        <p>
-            <strong>Escalate</strong>.  Don't take no for an answer.  Use your connections to convince someone in the producers' management chain to influence them to take your feature request.
-        </p>
-        <p>
-            This option sounds attractive for the consuming team because they can get their feature request without needing to do the work or maintain it.
-            It is still a drag on the team, though, because it necessarily diverts some of their attention and work on the non-productive task of escalation.
-            It is similarly disruptive (even more so) for the producing team, who are taken out of their normal workflow and prioritization methods to deal with the escalated feature request.
-        </p>
-    </li>
+  <li>
+    <p>
+      <strong>Wait it out</strong>.
+      In this option the consuming team does nothing and limps along without the requested functionality.
+      Depending on the benefit of the feature request, <em>Wait it out</em> might be just fine or it may come with real amounts of pain for the consuming team. 
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Workaround</strong>.
+      A consuming team that doesn't want to wait may do extra work somewhere else to compensate for the absence of their requested feature.
+      This extra work may come as a modification (hack) in the consuming project.
+      Alternatively, the consuming team may create a new project that meets their needs and replaces their use of all or part of the producing team's system (code/project duplication).
+    </p>
+    <p>
+      <em>Workaround</em> is suboptimal from a variety of standpoints.
+      <ul>
+        <li>
+          First, any work done by the consuming team remains unavailable to any other consumers with the same feature request.
+        </li>
+        <li>
+          Second, the consuming team has (ofttimes inadvertently) signed up for the long-term burden of maintaining their newly-written code, which is not a part of their core purpose.
+        </li>
+        <li>
+          Third, the company as-a-whole acquires duplicate projects and code in the same problem space.
+        </li>
+      </ul>
+    </p>
+    <p>
+      Despite these drawbacks, one big win for the consuming team is their ability to get the requested feature via their own efforts only (no hard dependencies).
+      Due to this benefit, this option is commonly-taken.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Escalate</strong>.  The consuming team may not take "no" for an answer and, instead, advocate to someone in the producers' management hierarchy to influence (or force) the producing team to do the work.
+    </p>
+    <p>
+      This option sounds attractive for the consuming team because they get the requested feature without doing the work to implement or maintain it.
+      It is still a drag on the team, though, because it necessarily diverts some of their attention and work to the non-productive task of escalation.
+      Additionally, this option does not scale as there are so many times that a consumer can escalate feature requests before losing credibility.
+    </p>
+    <p>
+      <em>Escalate</em> is similarly disruptive (even more so) for the producing team, who are taken out of their normal workflow and prioritization methods to deal with the escalated feature request.
+    </p>
+  </li>
 </ol>
 
 <pre>
-    The "Escalate" option could be a place to include work for Danese's "cheeses" diagram.
-    "Work around" possibly use a diagram as well.
+  The "Escalate" option could be a place to include work for Danese's "cheeses" diagram.
+  "Workaround" could possibly use a diagram as well.
 </pre>
 
 <h2>Solution Overview</h2>
 
 <p>
-    This Oriole explains a fourth option available to the consuming team - <strong>InnerSource</strong>.
-    This strategy provides the wins of <em>Work around</em> and <em>Escalate</em> without the same drawbacks to the teams and company.
+  This Oriole explains a fourth option available to the consuming team - <strong>InnerSource</strong>.
+  This strategy provides the wins of <em>Workaround</em> and <em>Escalate</em> without the same drawbacks to the teams and company.
 </p>
 <p>
-    The basic idea of <em>InnerSource</em> is that if a consuming team can't get what it needs by submitting a feature request then it may submit a pull request instead.
-    Then the producing team can partner to review and accept the change and new functionality.
-    At its best, this option works well for the consuming team because they get the functionality they need when they need it without taking on the long-term burden of maintenance of the solution.
-    It works for the producing team because they are able to better scale and serve their consumers.
-    It works for the company at-large because solutions to shared problems end up in shared, centrally-maintained locations where anyone can use them. 
-    More engineering time stays focused on producing code that solves company problems rather than the mechanics of the feature negotiation and escalation process.
+  The basic idea of <em>InnerSource</em> is this: If a consuming team can't get what it needs by submitting a feature request then it may submit a pull request instead.
+  The producing team can partner to review and accept the pull request and the requested functionality it implements.
+</p>
+<p>
+  At its best, this option works for the consuming team because they get the requested feature without taking on the long-term burden of its maintenance.
+  It works for the producing team because they are able to better scale and serve their consumers.
+  It works for the company at-large because solutions to shared problems end up in shared, centrally-maintained locations where all can use them. 
+  Additionaly, engineering focus stays on producing the code that solves company problems rather than the mechanics of the feature negotiation and escalation process.
 </p>
 
 <h2>Solution Detail</h2>
 <p>
-    Let's take a closer look at how the mechanics of the <em>InnerSource</em> process can work.
-    To aid in this explanation, we'll define a few key terms.
-    First, in the context of the code contribtion process, we call the team that is receiving the code the <strong>Host</strong> team.
-    Conversely, the team giving the code is the <strong>Guest</strong> team.
-    There are also a few key individuals to name.
-    First, the <strong>Product Owner</strong> determines what functionality the host team is willing to accept as contributions.
-    The <strong>Contributor</strong> is the individual that submits the code contribution.
-    The <strong>Trusted Committer</strong> provides any timely support and mentorship that the contributor needs to successfully submit the pull request.
+  Let's take a closer look at how the mechanics of InnerSource can work.
+  To aid in this explanation, we'll define a few key terms.
+  First, in the context of the code contribtion process, we call the team that is receiving the code the <strong>Host team</strong>.
+  Conversely, the team giving the code is the <strong>Guest team</strong>.
+  There are also a few key individuals to name.
+  First, the <strong>Product Owner</strong> determines what functionality the host team is willing to accept as contributions.
+  The <strong>Contributor</strong> is the individual submitting the code contribution.
+  The <strong>Trusted Committer</strong> provides any timely support and mentorship that the contributor needs to successfully submit the code contribution.
 </p>
 
 <p>
-    With those definitions, we can follow the basic outline of an InnerSource contribution.
+  With those definitions, here is the basic outline of an InnerSource contribution.
 </p>
 <p>
-    <ol>
-        <li>
-            Guest team gives a feature request to the host team.
-        </li>
-        <li>
-            Product owner agrees that this feature is desirable in the host team's system.
-        </li> 
-        <li>
-            As the product owner prioritizes work for the host team, items other than the guest team's request are chosen.
-        </li>
-        <li>
-            Host team communicates the (de)priortization of the guest team's request and asks if they would like to complete it via InnerSource contribution.
-        </li>
-        <li>
-            Guest team agrees to submit the feature request via InnerSource.
-        </li>
-        <li>
-            Product owner ensures that user stories representing the feature request are created.
-            The stories should describe the desired functionality in terms agreeable to the guest team.
-            They also list any details from the host team on how the functionality should be delivered in order for the work to be accepted.
-        </li>
-        <li>
-            Trusted commiter's time is made available to the guest team during the time in-which the contributor is working.
-        </li>
-        <li>
-            Supported by the trusted committer, the contributor submits the pull request(s) to implement the feature.
-        </li>
-    </ol>
+  <ol>
+    <li>
+      Guest team requests a feature from the host team.
+    </li>
+    <li>
+      Product owner agrees that this feature is desirable in the host team's system.
+    </li> 
+    <li>
+      As the product owner prioritizes work for the host team, items other than the guest team's request are chosen.
+    </li>
+    <li>
+      Host team communicates the (de)priortization of the guest team's request and asks if they would like to complete it via InnerSource contribution.
+    </li>
+    <li>
+      Guest team agrees to submit the feature request via InnerSource.
+    </li>
+    <li>
+      Product owner ensures that user stories representing the feature request are created.
+      These stories should describe the requested feature in terms agreeable to the guest team.
+      They also list any details from the host team on how the feature should be delivered in order for the work to be accepted.
+      Examples of such details include architecture constraints, coding conventions, dependency usages, data contracts, etc.
+    </li>
+    <li>
+      Trusted committers' time is made available to the guest team when the contributor is working.
+    </li>
+    <li>
+      Supported by the trusted committer(s), the contributor submits the pull request(s) to implement the requested feature.
+    </li>
+  </ol>
 </p>
 <p>
-    Note that these steps do not assume a specific system for the general organization of a team's time or its priorities.
-    InnerSource assumes that teams have existing methods of such organization and simply encourages using them to work together where there is a guest team desiring to contribute code to a host.
+  Note that these steps do not assume a specific system for the general organization of a team's time or priorities.
+  Rather, InnerSource assumes that teams have existing methods of such organization and simply provides a framework of how to use them to work together where there is a guest team desiring to contribute code to a host.
 </p>
 
 <pre>
-    In the speakers' script call out a few key points of this process to curtail any existing negative connotations about InnerSource.
+  In the speakers' script call out a few key points of this process to curtail any existing negative connotations about InnerSource.
 </pre>
 
 <h2>
-    Benefits
+  Benefits
 </h2>
 
 <p>
-There are many benefits to working in this InnerSource model.
-First and foremost, <strong>the guest team gets their feature</strong> when they needed it without the long-term burden of maintaining it.
-The guest team was planning on spending time on the functionality anyway (whether through <em>Work around</em> or <em>Escalate</em>), and that time is directed towards putting the feature in a place where others can use it as well.
-While that result is the shining benefit of InnerSource, one thing that's easy to overlook is the fact that <strong>the host team gets their feature, too</strong>.
-Remember that in the InnerSource process the host team agreed from the outset that the requested functionality was good and desirable in their product.
-The host team is getting help in creating a better product for its consumers!
+  There are many benefits to collaborating via InnerSource.
+  First and foremost, <strong>the guest team gets their feature</strong> request when they need it without the long-term burden of maintaining it.
+  When the guest team would have spent time on the feature regardless (whether through <em>Workaround</em> or <em>Escalate</em>), InnerSource provides a way to use that time towards developing the feature in a place that's centrally-maintained and shared.
 </p>
 
 <p>
-The host team receives other benefits from this process.
-InnerSource gives the host team a scalable method for supporting the varying amounts of work required by requests from its many consumers.
-The full-time host team will do its best with the fixed amount of time that it has, but it's possible that at some particular time the combined business roadmaps of the company require a very large amount of work to be done in their system.
-Without InnerSource, that situation easily leads to a stressed, overworked team dealing with escalations from leadership.
-However, if the host team is set up for InnerSource, the engineering resources required to do the work will start appearing in the form of guest contributors in-proportion to its importance.
-InnerSource becomes a force multiplier that allows a host team to temporarily act larger than it actually is during times of high demand.
-When the demand has ended, the team throughput scales back to normal levels, all without any required micromanagement of team staffing or dictating what teams work on.
+  While that result is the shining benefit of InnerSource, another result that's easy to overlook is the fact that <strong>the host team gets their feature, too</strong>.
+  Recall that, as part of the InnerSource process, the product owner on the host team agrees from the outset that the requested feature is good and desirable.
+  InnerSource allows the host team to receive help in creating a better product for its consumers!
 </p>
 
 <p>
-Beyond the raw work that the host team is able to accomplish in its system, InnerSource organically improves its relationship with its consumers.
-Regular InnerSource contributions give the host team better requirements and prioritization alignment with all of its consumers.
-A host team can do its best requirements gathering on the work it produces, but when the consumer itself is the one submitting the work the chances are much higher that the resulting change is aligned to just what the consumer needs.
-Sure, it's only one single guest team submitting the change, but that team is likely representative of many other consumers of the host team.
+  InnerSourcing provides the host team a scalable strategy for fulfilling the varying amounts of features requested from its many consumers.
+  Given the fixed capacity of the full-time members of the host team, it's likely that at times the combined business roadmaps of their consumers will require very (or even unreasonably) large amounts of work to be done in the host team's product(s).
+  Without InnerSource, this situation easily leads to a stressed, overworked team dealing with feature requests escalated to its leaders.
+  However, if the host team operates via InnerSource, the engineering resources required to build those features will appear in-proportion to their importance in the form of guest contributors.
+  InnerSource becomes a force multiplier that allows a host team to temporarily act larger than its actual size is during times of high demand.
+  When the demand has ended, the team throughput scales back to normal levels, all without any micromanagement of team headcount or work items.
+</p>
 
-In addition to this alignment, there is also a grass-roots evangelism that takes hold in many contributors.
-Having made a code contribution they feel a stake in the host team project.
-It's something that they recommend to their colleagues or new teams that they join.
-They understand the project better and are able to answer questions about it to others, relieving the host team of some of that burden.
+<p>
+  Beyond the raw work that the host team is able to accomplish in its system, regular InnerSource contributions give the host team better requirements and prioritization alignment with all of its consumers.
+  A host team can do its best requirements gathering on the work it produces, but when the consumer itself is the one submitting the work the chances are much higher that the resulting change is aligned to just what the consumer needs.
+  Sure, it's only one single guest team submitting the change, but that team is likely representative of many other consumers and their needs.
+</p>
+
+<p>
+  In addition to this alignment, there is also a grass-roots evangelism that takes hold in many contributors.
+  Having made a code contribution they feel a stake in the host team project.
+  It's something that they recommend to their colleagues or new teams that they join.
+  They understand the project better and are able to answer questions about it to others, relieving the host team of some of that burden.
 </p>
 
 <pre>
-    In the speaker's script this section is ripe for sharing some of the stories where we've seen these principles in action:
-    * (Russ) 5 teams at once building EC2 deployment together.
-    * (Danese) Checkout team interrupt-driven work going from 65% to 5%.
+  In the speaker's script this section is ripe for sharing some of the stories where we've seen these principles in action:
+  * (Russ) 5 teams at once building EC2 deployment together.
+  * (Danese) Checkout team interrupt-driven work going from 65% to 5%.
 </pre>
 
 
 <h2>Principles</h2>
 
 <p>
-    Every company, team, project, and individual is different.
-    Because of that fact, the exact way that the concept of InnerSource works will vary from one situation to another.
-    At its core, however, are two principles that form the bedrock of any succesful instance of InnerSource.
-    These principles must be respected and present in order for InnerSource to acheive the benefits described earlier.
-    The principles are:
+  Every company, team, project, and individual is different.
+  Because of that fact, the exact way that the concept of InnerSource works will vary from one situation to another.
+  At its core, however, are two principles that form the bedrock of any succesful instance of InnerSource.
+  These principles must be respected and present in order for InnerSource to achieve the benefits described earlier.
+  The principles are:
 </p>
 
 <ul>
-    <li>Voluntary Code Contribution</li>
-    <li>Prioritized Mentiorship</li>
+  <li>Voluntary Code Contribution</li>
+  <li>Prioritized Mentorship</li>
 </ul>
 
 <p>
-    Let's take a look at each of these principles in more detail.
+  Let's take a look at each of these principles in more detail.
 </p>
 
 <h3>Voluntary Code Contribution</h3>
 
 <p>
-    The first word <em>Voluntary</em> means that engagement in InnerSource occurs of their own free will from both the guest and host teams.
-    The guest team voluntarily donates code to the host team and the host team voluntarily accepts it.
-    The opt-in nature of this setup means that each side needs to be certain that their involvement adds value to the others' objectives.
-    Never is a host team required to accept a contribution that isn't in ultimate alignment with their overall mission.
-    Never is a guest team required to submit a contribution that doesn't ultimately further their own mission and priorities.
+  The first word <em>Voluntary</em> means that engagement in InnerSource from both the guest and host teams occurs of their own free will.
+  The guest team voluntarily donates code to the host team and the host team voluntarily accepts it.
+  This opt-in nature means that each team needs to be certain that their involvement adds value to the others' objectives.
+  Never is a host team required to accept a contribution that isn't in ultimate alignment with their overall mission.
+  Never is a guest team required to submit a contribution that doesn't ultimately further their own mission and priorities.
 </p>
 
 <p>
-    The word <em>Code</em> emphasizes that the collaboration between guest and host goes all the way to the code.
-    Guest involvement in opening issues, updating requirements, fixing docs, etc. is all good, but this collaboration needs to reach all the way to updating code to acheive all of the benefits that we've discussed.
+  The word <em>Code</em> emphasizes that the collaboration between guest and host goes all the way to the code.
+  Guest involvement in opening issues, updating requirements, fixing docs, etc. is good, but collaboration needs to reach as far as submitting code to acheive all of the benefits that we've discussed.
 </p>
 
 <h3>Prioritized Mentorship</h3>
 
 <p>
-    <em>Mentorship</em> from host team to guest team is a key aspect of InnerSource.
-    Contributors on guest teams are upleveled so that they understand enough about the host team system to change it successfully.
-    In the process of doing so they are also come to better understand the host team system as a general consumer and can use it more effectively and help other consumers to do so as well. 
+  <em>Mentorship</em> from host team to guest team is a key aspect of InnerSource.
+  Contributors on guest teams are upleveled so that they understand enough about the host team system to change it successfully.
+  In the process of doing so, they come to better understand the host team system as a general consumer.
+  They can use it more effectively and help other consumers to do so as well. 
 </p>
 
 <p>
-    It's critical that such mentorship for contributors is <em>Prioritized</em> by the host team.
-    Trusted committer availability to mentor (within reason) is made available to contributors <em>at the time that they need it</em> as opposed to when it is convenient for the trusted comitter and host team.
+  It's critical that this mentorship for contributors is <em>Prioritized</em> by the host team.
+  Trusted committer availability to mentor is made available to guest team contributors <em>at the time that they need it</em> as opposed to when it is convenient for the trusted comitter and host team.
 </p>
 
 
 <h2>Conclusion</h2>
 
 <p>
-    In this Oriole we've given an introduction to InnerSource.
-    InnerSource applies the best practices of open source practices and principles to internal software development. 
-    It is an option available to consumers when producing teams are not able to deliver a needed feature request.
-    Successful InnerSource involves a <strong>product owner</strong> and <strong>trusted committer</strong> from the <strong>host team</strong> and a <strong>contributor</strong> from the <strong>guest team</strong>.
-    Done effectively, InnerSource brings many benefits to both participating teams.
-    They key principles upon-which effective InnerSource works are <strong>voluntary code contribution</strong> and <strong>prioritized mentorship</strong>.
+  In this Oriole we've given an introduction to InnerSource.
+  InnerSource applies open source best practices and principles to internal software development. 
+  It gives an additional option to consumers when producing teams are not able to deliver a needed feature request.
+  Successful InnerSource involves a <strong>product owner</strong> and <strong>trusted committer</strong> from the <strong>host team</strong> and a <strong>contributor</strong> from the <strong>guest team</strong>.
+  Done effectively, InnerSource brings many benefits to both participating teams.
+  They key principles upon-which effective InnerSource works are <strong>voluntary code contribution</strong> and <strong>prioritized mentorship</strong>.
 </p>
 
 <p>
-    While this training contains a high-level overview of InnerSource, there are many more details useful in making InnerSource actually work for you.
-    We're working hard on at least 3 more Orioles to provide some of this information, so stay tuned for those.
-    If you want to join the ongoing conversation around InnerSource and its best practices, then join the <a href="http://www.innersourcecommons.org/">InnerSource Commons</a>.
-    The commons sponsors a Slack channel, an InnerSource patterns working group, and multiple in-person summits each year and is a great way to stay connected with the latest in InnerSource.
+  While this training contains a high-level overview of InnerSource, there are many more details useful in making InnerSource actually work for your team.
+  We're working hard on at least 3 more Orioles to provide some of this information, so stay tuned for those.
+  If you want to join the ongoing conversation around InnerSource and its best practices, then join the <a href="http://www.innersourcecommons.org/">InnerSource Commons</a>.
+  The commons sponsors a Slack channel, an InnerSource patterns working group, and multiple in-person summits each year.
+  It is a great way to stay connected with the latest in InnerSource.
 </p>
