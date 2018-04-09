@@ -17,7 +17,8 @@
 
 <p>
   Imagine two teams delivering separate pieces of software with one team's software depending on that of the other.
-  This situation is common in a large enterprise where a single team producing software may have dozens or hundreds of consumers.
+  An example could be an API service that depends on a shared library for part of its functionality.
+  This type of situation is common in a large enterprise where a single team producing software may have dozens or hundreds of consumers.
   When consuming teams need many features, producing teams normally have some sort of requirements and prioritization process to decide which features they will work on.
   For feature requests that are not prioritized, the consuming team is faced with 3 choices, each of which come with their own drawbacks.
 </p>
@@ -96,15 +97,14 @@
 </p>
 
 <h2>Solution Detail</h2>
+
 <p>
-  Let's take a closer look at how the mechanics of InnerSource can work.
-  To aid in this explanation, we'll define a few key terms.
-  First, in the context of the code contribution process, we call the team that is receiving the code the <strong>Host team</strong>.
-  Conversely, the team giving the code is the <strong>Guest team</strong>.
-  There are also a few key individuals to name.
-  The <strong>Product Owner</strong> determines what functionality the host team is willing to accept as contributions.
-  The <strong>Contributor</strong> is the individual submitting the code contribution.
-  The <strong>Trusted Committer</strong> provides any timely support and mentorship that the contributor needs to successfully submit the code contribution.
+    Let's take a closer look at how the mechanics of the <em>InnerSource</em> process can work.
+    To aid in this explanation, we'll name a few key individuals on the <strong>Guest</strong>
+    and <strong>Host</strong> teams.
+    First, the <strong>Product Owner</strong> determines what functionality the host team is willing to accept as contributions.
+    The <strong>Contributor</strong> is the individual that submits the code contribution.
+    The <strong>Trusted Committer</strong> provides any timely support and mentorship that the contributor needs to successfully submit the pull request.
 </p>
 
 <p>
