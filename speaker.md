@@ -6,11 +6,14 @@ Notes here in this document describe any intentional deviation from the content 
 
 ## Introduction (Danese)
 
-## Context (Russ)
+## A Common Scenario (Russ)
 
 ### Wait it out (Russ)
+* Story of a team wanting us to upgrade a library that was easier for them to support.
+The ticket is still open.
 
 ### Work around (Russ)
+* We had to work around the QMA performing a case-sensitive check on incoming HTTP headers.
 
 ### Escalate (Danese)
 
@@ -27,15 +30,17 @@ Notes here in this document describe any intentional deviation from the content 
 * Hosts expect you’ll take your shoes off inside or that you won’t let the cat out, etc.
 * Guests expect clean and perhaps private space
 
-## Solution Detail - the rest (Russ)
+## Solution Detail (Russ)
 
-## Benefits - up to 3rd paragraph - scalability for host team (Danese)
+Really point out that the host team remains in control via specificying up-front any constraints on the completeed work.
 
-* Key teams that were able to reduce interrupt-driven work by 60%, which gave them back their capacity to plan and execute
-
-## Benefits - the rest (Russ)
-
-* Segue on the scalability point by sharing the story of 5 teams building EC2 deployment at once together.
+## Benefits (Danese/Russ)
+* How to split up this section between us?
+* (Danese) Key teams that were able to reduce interrupt-driven work by 60%, which gave them back their capacity to plan and execute
+* (Russ) Segue on the scalability point by sharing the story of 5 teams building AWS EC2 deployment at once together.
+* (Russ) Our small team of 3 engineers ran a continuous delivery pipeline that grew to be used by (nearly) 200 projects monthly.
+* (Russ) The work of the team organically shifted to AWS Lambda deployment because that's where people wanted to contribute
+* (Russ) After engineers learned how to talk to each other a natural way they started working together on other things - e.g. node-api-blueprint.
 
 ## Principles (Danese)
 
