@@ -1,4 +1,4 @@
-This document holds the outline of the speaking script that accompanies the reader text in [main.html](./main.html).
+This document holds the outline of the speaking script that accompanies the reader text in [main.html](https://github.com/rrrutledge/innersource-intro/blob/master/main.html) ([PDF view](https://github.com/rrrutledge/innersource-intro/files/1924845/InnerSource-Intro.pdf)).
 It's structure follows the reader text.
 For each section there is an annotation describing who is its speaker.
 It is assumed that the speaker will explain the section content in their own words.
