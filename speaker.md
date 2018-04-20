@@ -1,13 +1,25 @@
-This document holds the outline of the speaking script that accompanies the reader text in [main.html](https://github.com/rrrutledge/innersource-intro/blob/master/main.html) ([PDF view](https://github.com/rrrutledge/innersource-intro/files/1924845/InnerSource-Intro.pdf)).
-It's structure follows the reader text.
-For each section there is an annotation describing who is its speaker.
-It is assumed that the speaker will explain the section content in their own words.
-Notes here in this document describe any intentional deviation from the content of the reader text in the form of additional detail, stories, or items that the speaker should highlight and share.
+This document holds [the shoot playbook segments](https://app.oreilly.com/authors/welcomekit/video.csp) that accompany the reader text in [main.html](https://github.com/rrrutledge/innersource-intro/blob/master/main.html) ([PDF view](https://github.com/rrrutledge/innersource-intro/files/1924845/InnerSource-Intro.pdf)).
+The document also holds the bulleted list of speaker notes for each segment via this format:
+
+## Title (Presenter)
+_Segment description in complete sentences_
+
+* Bulleted
+* list
+* of
+* speaking
+* notes
 
 ## Introduction (Danese & Russ)
+
 * Each person introduces themselves.
+* You are watching this video because you've heard about InnerSource and want to know what it's all about.
 * Danese introduces the overall concept of inner source.
-* Russ introduces the content of the training video.
+* Russ introduces the content of the segements.
+  * candidate situations
+  * key terms
+  * principles
+  * benefits
 
 ## A Common Scenario (Russ)
 
