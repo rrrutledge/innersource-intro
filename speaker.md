@@ -4,7 +4,10 @@ For each section there is an annotation describing who is its speaker.
 It is assumed that the speaker will explain the section content in their own words.
 Notes here in this document describe any intentional deviation from the content of the reader text in the form of additional detail, stories, or items that the speaker should highlight and share.
 
-## Introduction (Danese)
+## Introduction (Danese & Russ)
+* Each person introduces themselves.
+* Danese introduces the overall concept of inner source.
+* Russ introduces the content of the training video.
 
 ## A Common Scenario (Russ)
 
@@ -48,4 +51,6 @@ Really point out that the host team remains in control via specificying up-front
 Trusted Committers are team members who not only understand the codebase well enough to coach someone else in writing good pull requests to achieve a desired outcome, but they also have the knack of passing on that wisdom in a constructive way.
 In Open Source it is an honor to get voted to Trusted Committership.
 
-## Conclusion (Russ)
+## Conclusion (Russ & Danese)
+* Russ summarizes the content of the training.
+* Danese invites those watching to join the InnerSource Commons.
