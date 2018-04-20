@@ -16,12 +16,12 @@ _Segment description in complete sentences_
 * You are watching this video because you've heard about InnerSource and want to know what it's all about.
 * Danese introduces the overall concept of inner source.
 * Russ introduces the content of the segements.
-  * candidate situations
-  * key terms
-  * principles
-  * benefits
+  * the general thing that they're going to learn: know what it's about and how to talk about it using familiar, shared terms 
+  * situations that are good candidates
+  * key principles upon-which effective inner source is based
+  * benefits that result from inner source efforts that follow them.
 
-## A Common Scenario (Russ)
+## InnerSource Candidate Scenarios (Danese and Russ)
 
 ### Wait it out (Russ)
 * Story of a team wanting us to upgrade a library that was easier for them to support.
@@ -47,7 +47,7 @@ The ticket is still open.
 
 ## Solution Detail (Russ)
 
-Really point out that the host team remains in control via specificying up-front any constraints on the completeed work.
+Really point out that the host team remains in control via specificying up-front any constraints on the completed work.
 
 ## Benefits (Danese/Russ)
 * How to split up this section between us?
