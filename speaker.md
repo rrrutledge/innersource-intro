@@ -23,7 +23,9 @@ _What is included in the "Introduction to InnerSource" learning path?  Meet the 
   * benefits that result from inner source efforts that follow them.
 
 ## What does InnerSource solve? (Russ)
-_InnerSource is useful because it solves common problems in cross-team collaboration.  Learn the types of problematic situations where InnerSource can help._
+_This segment presents the type of collaboration situation in which InnerSource applies.
+We'll review 3 common approaches to this situation and the benefits/drawbacks of each.
+InnerSource provides a way to achieve those desired benefits without the associated drawbacks._
 
 * Example consumer wanting a feature from an example producer.
 * For feature requests not taken, the consumer can:
