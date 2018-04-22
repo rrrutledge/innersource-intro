@@ -31,21 +31,21 @@ InnerSource provides a way to achieve those desired benefits without the associa
 * For feature requests not taken, the consumer can:
 * **Wait it out**
   * Wait and see if the producer will do the work later.
-  * Advantage: least amount of work for the consumer.
-  * Disadvantage: might never get the functionality.
+  * Benefits: least amount of work for the consumer.
+  * Drawbacks: Don't get the functionality (might never get it).
   * Story: team wanting us to upgrade a library that was easier for them to support.
 * **Work around**
   * Do extra work to compensate for the feature's absence
-  * Advantage: Get the functionality by the team's own efforts only.
-  * Disadvantages:
+  * Benefits: Get the functionality by the team's own efforts only.
+  * Drawbacks:
     * (consuming team): own the long-term burden of maintenance for the new code.
     * (other teams): can't use what the consuming team has built.
     * (company): duplicate effort in the same problem space.
   * We had to work around the QMA performing a case-sensitive check on incoming HTTP headers.
 * **Escalate**
   * Try to influence the producer to do the work via appeal to their management chain from ours.
-  * Advantage: Get the feature without needing to build or maintain it.
-  * Disadvantage:
+  * Benefits: Get the feature without needing to build or maintain it.
+  * Drawbacks:
     * High friction -> lots of (non-productive) time for both consumers and producers.
     * Not scalable
 
