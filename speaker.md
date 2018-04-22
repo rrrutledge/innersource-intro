@@ -11,6 +11,7 @@ _Segment description in complete sentences_
 * notes
 
 ## Introduction (Danese & Russ)
+_What is included in the "Introduction to InnerSource" learning path?  Meet the presenters and hear the summary of the learning path content._
 
 * Each person introduces themselves.
 * You are watching this video because you've heard about InnerSource and want to know what it's all about.
@@ -21,23 +22,32 @@ _Segment description in complete sentences_
   * key principles upon-which effective inner source is based
   * benefits that result from inner source efforts that follow them.
 
-## InnerSource Candidate Scenarios (Danese and Russ)
+## What does InnerSource solve? (Russ)
+_InnerSource is useful because it solves common problems in cross-team collaboration.  Learn the types of problematic situations where InnerSource can help._
 
-### Wait it out (Russ)
-* Story of a team wanting us to upgrade a library that was easier for them to support.
-The ticket is still open.
+* Example consumer wanting a feature from an example producer.
+* For feature requests not taken, the consumer can:
+* **Wait it out**
+  * Wait and see if the producer will do the work later.
+  * Advantage: least amount of work for the consumer.
+  * Disadvantage: might never get the functionality.
+  * Story: team wanting us to upgrade a library that was easier for them to support.
+* **Work around**
+  * Do extra work to compensate for the feature's absence
+  * Advantage: Get the functionality by the team's own efforts only.
+  * Disadvantages:
+    * (consuming team): own the long-term burden of maintenance for the new code.
+    * (other teams): can't use what the consuming team has built.
+    * (company): duplicate effort in the same problem space.
+  * We had to work around the QMA performing a case-sensitive check on incoming HTTP headers.
+* **Escalate**
+  * Try to influence the producer to do the work via appeal to their management chain from ours.
+  * Advantage: Get the feature without needing to build or maintain it.
+  * Disadvantage:
+    * High friction -> lots of (non-productive) time for both consumers and producers.
+    * Not scalable
 
-### Work around (Russ)
-* We had to work around the QMA performing a case-sensitive check on incoming HTTP headers.
-
-### Escalate (Danese)
-
-* We chose cheeses to designate executives to whom guests escalate then a feature request isn’t being implemented fast enough. In our experience, it’s really common for executive escalations to devolve
-* Huge time and resource sink
-* Not much is learned in the process of writing the feature / fixing the bug
-* Much friction is added to the system
-
-## Solution Overview (Danese)
+## Solution Overview and detail (Danese)
 
 ## Solution Detail - up to 1st paragraph - definitions (Danese)
 
@@ -45,7 +55,7 @@ The ticket is still open.
 * Hosts expect you’ll take your shoes off inside or that you won’t let the cat out, etc.
 * Guests expect clean and perhaps private space
 
-## Solution Detail (Russ)
+## Solution Detail
 
 Really point out that the host team remains in control via specificying up-front any constraints on the completed work.
 
