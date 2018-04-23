@@ -50,6 +50,7 @@ InnerSource provides a way to achieve those desired benefits without the associa
     * Not scalable
 
 ## What is InnerSource? (Danese)
+_This segment explains how InnerSource works at a high level.  You'll also learn and also the key terms to use when discussing InnerSource._
 
 * Consuming team submits code fufilling the feature request to the producing team.
 * Explanation we usually give about how house rules help you know how to behave and what to expect as a guest
