@@ -49,17 +49,15 @@ InnerSource provides a way to achieve those desired benefits without the associa
     * High friction -> lots of (non-productive) time for both consumers and producers.
     * Not scalable
 
-## Solution Overview and detail (Danese)
+## What is InnerSource? (Danese)
 
-## Solution Detail - up to 1st paragraph - definitions (Danese)
-
+* Consuming team submits code fufilling the feature request to the producing team.
 * Explanation we usually give about how house rules help you know how to behave and what to expect as a guest
 * Hosts expect you’ll take your shoes off inside or that you won’t let the cat out, etc.
 * Guests expect clean and perhaps private space
-
-## Solution Detail
-
-Really point out that the host team remains in control via specificying up-front any constraints on the completed work.
+* Define the **Product Owner** and **Trusted Committer** on the Host team as well as the **Contributor** on the guest team.
+* Describe how all 3 work together to get the code in.
+* Point out that the host team remains in control via specifying up-front any constraints on the completed work.
 
 ## Benefits (Danese/Russ)
 * How to split up this section between us?
