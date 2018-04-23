@@ -59,19 +59,27 @@ InnerSource provides a way to achieve those desired benefits without the associa
 * Describe how all 3 work together to get the code in.
 * Point out that the host team remains in control via specifying up-front any constraints on the completed work.
 
-## Benefits (Danese/Russ)
-* How to split up this section between us?
-* (Danese) Key teams that were able to reduce interrupt-driven work by 60%, which gave them back their capacity to plan and execute
-* (Russ) Segue on the scalability point by sharing the story of 5 teams building AWS EC2 deployment at once together.
-* (Russ) Our small team of 3 engineers ran a continuous delivery pipeline that grew to be used by (nearly) 200 projects monthly.
-* (Russ) The work of the team organically shifted to AWS Lambda deployment because that's where people wanted to contribute
-* (Russ) After engineers learned how to talk to each other a natural way they started working together on other things - e.g. node-api-blueprint.
+## What are the benefits of InnerSource? (Russ)
+* Guest team gets their feature now without the long-term burden of maintaining it.
+* Others can use the work of the guest team.
+* Host team gets a desired feature.
+* Scalability for the host team.
+  * Key teams that were able to reduce interrupt-driven work by 60%, which gave them back their capacity to plan and execute
+  * 5 teams building AWS EC2 deployment at once together.
+* Force multiplier for sustained output from the host team.
+  * Our small team of 3 engineers ran a continuous delivery pipeline that grew to be used by (nearly) 200 projects monthly.
+* Better requirements and prioritization alignment.
+  * The work of the team organically shifted to AWS Lambda deployment because that's where people wanted to contribute
+* Break down traditional silos.
+  * After engineers learned how to talk to each other a natural way they started working together on other things - e.g. node-api-blueprint.
 
-## Principles (Danese)
+## What are the underlying principles of InnerSource? (Danese)
 
 * This concept (mentorship) comes straight out of the Apache Way.
 Trusted Committers are team members who not only understand the codebase well enough to coach someone else in writing good pull requests to achieve a desired outcome, but they also have the knack of passing on that wisdom in a constructive way.
-In Open Source it is an honor to get voted to Trusted Committership.
+* In Open Source it is an honor to get voted to Trusted Committership.
+* Mentorship must be prioritized to be effective.
+* Participation in an InnerSource contribution is voluntary on the part of both the guest and host teams.
 
 ## Conclusion (Russ & Danese)
 * Russ summarizes the content of the training.
