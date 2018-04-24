@@ -67,8 +67,7 @@ _This segment explains how InnerSource works at a high level.  You'll also learn
 * Scalability for the host team.
   * Key teams that were able to reduce interrupt-driven work by 60%, which gave them back their capacity to plan and execute
   * 5 teams building AWS EC2 deployment at once together.
-* Force multiplier for sustained output from the host team.
-  * Our small team of 3 engineers ran a continuous delivery pipeline that grew to be used by (nearly) 200 projects monthly.
+  * Force multiplier for sustained output from the host team.
 * Better requirements and prioritization alignment.
   * The work of the team organically shifted to AWS Lambda deployment because that's where people wanted to contribute
 * Break down traditional silos.
