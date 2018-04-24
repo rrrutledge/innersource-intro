@@ -49,7 +49,7 @@ InnerSource provides a way to achieve those desired benefits without the associa
     * High friction -> lots of (non-productive) time for both consumers and producers.
     * Not scalable
 
-## What is InnerSource? (Danese)
+## How Do I InnerSource? (Danese)
 _This segment explains how InnerSource works at a high level.  You'll also learn and also the key terms to use when discussing InnerSource._
 
 * Consuming team submits code fufilling the feature request to the producing team.
